@@ -151,8 +151,8 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=239)
     args = parser.parse_args()
 
-    np.random.seed(args.seed)
-    tf.set_random_seed(args.seed)
+    #np.random.seed(args.seed)
+    #tf.set_random_seed(args.seed)
     #tf.random.set_seed(args.seed)
     ############################################################
     #print(args.debug)
